@@ -30,10 +30,14 @@ require 'template/_header.php';
 				<div class="col-xs-12  text-center">
 					<a href="facebookconnect/fbconfig.php" class="btn-fb">Connectez-vous avec Facebook</a>
 				</div>
-				<div class="col-xs-8 col-xs-offset-2 text-center">
-					<a href="dashboard.php" class="pass">Passer cette étape</a>
-				</div>
+
 			</div>
+		</div>
+		<div class="container skip">
+			<div class="col-xs-8 col-xs-offset-2 text-center">
+					<a href="dashboard.php" class="pass">Passer cette étape</a>
+			</div>
+
 		</div>
 
     <?php }; ?>

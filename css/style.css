@@ -102,3 +102,8 @@ canvas{
 	margin-bottom: 5px;
 	position: center !important;
 }
+
+.skip {
+	margin-top: 300px;
+	font-size: 17px;
+}

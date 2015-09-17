@@ -24,6 +24,7 @@
 		  	<br>
 		  	<div class="text-center">
 		  		<button type="button" id="what" class="btn btn-xl"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></button>
+		  		<input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraObject" class="onlyMobile">
 		  	</div>
 			<canvas id="canvas" style="border: 5px solid black;"></canvas>
 	  	</div>
@@ -60,6 +61,7 @@
 		  	<br>
 		  	<div class="text-center">
 		  		<button type="button" id="who" class="btn btn-xl"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></button>
+		  		<input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraPerson" class="onlyMobile">
 		  	</div>
 			<canvas id="canvas2" style="border: 5px solid black;"></canvas>
 	  	</div>

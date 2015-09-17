@@ -26,6 +26,31 @@ if (isset($_POST["what"]) && isset($_POST["who"])) {
 		$photoPerson = substr($fileName2, 6);
 		insertSharedObject($db, "fucj", "you", $photoObject, $photoPerson);
 	}
+	elseif (isset($_FILES['cameraObject'])&&$_FILES['cameraObject']['error']==0 && isset($_FILES['cameraPerson'])&&$_FILES['cameraPerson']['error']==0)
+	{
+		if($_FILES['cameraObject']['size']<=2000000 && $_FILES['cameraPerson']['size']<=2000000)
+		{
+			$ext = strtolower(substr(strrchr($_FILES['cameraObject']['name'], '.'),1));
+			$ext2 = strtolower(substr(strrchr($_FILES['cameraPerson']['name'], '.'),1));
+			if($ext=="jpg" || $ext=="png" || $ext=="gif" || $ext2=="jpg" || $ext2=="png" || $ext2=="gif")
+			{
+				$tailleimage = getimagesize($_FILES['cameraObject']['tmp_name']);
+				$tailleimage2 = getimagesize($_FILES['cameraPerson']['tmp_name']);
+				if($tailleimage[0] <= 1000 && $tailleimage[1] <= 1000 && $tailleimage2[0] <= 1000 && $tailleimage2[1] <= 1000)
+				{
+					$image = "";
+					$image2 = "";
+					$path = 'image/'.uniqid(true).".".$ext;
+					$path2 = 'image/'.uniqid(true).".".$ext;
+					move_uploaded_file($_FILES['cameraObject']['tmp_name'],$path);
+					move_uploaded_file($_FILES['cameraPerson']['tmp_name'],$path2);
+					$image = substr($path, 6);
+					$image2 = substr($path2, 6);
+					header('Location: dashboard.php');
+				}
+			}
+		}
+	}
 }
 
 header('Location: dashboard.php');

@@ -10,6 +10,18 @@ function convertCanvasToImageWho(canvas) {
 }
 // Put event listeners into place
 window.addEventListener("DOMContentLoaded", function() {
+	/*var isAndroid = /(android)/i.test(navigator.userAgent)
+	var isMobile = /(mobile)/i.test(navigator.userAgent)
+	if (isAndroid || isMobile) {
+		console.log('a');
+	}*/
+	if (navigator.appVersion.indexOf("Win")!=-1 || navigator.appVersion.indexOf("Mac")!=-1 || navigator.appVersion.indexOf("X11")!=-1 || navigator.appVersion.indexOf("Linux")!=-1){
+		$(".onlyMobile").hide();
+	}
+	else{
+		$("video").hide();
+	}
+
 	var width = window.innerWidth - (window.innerWidth/20);
 	var height = (width / 2) + 5;
 	// Grab elements, create settings, etc.

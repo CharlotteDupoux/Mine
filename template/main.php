@@ -4,7 +4,6 @@
   		<img class="logo" src="image/logo_small.png" class="center-block"/>
   	</div>
   	<div class="col-xs-1">
-  		<a href="delete.php"><h2>shbgd</h2></a>
   	</div>
   	<!--<div class="col-xs-12" id="header">
   		<img class="text-center logo" src="image/logo_small.png" />
@@ -26,7 +25,7 @@
 	      <ul class="nav navbar-nav">
 	        <li class="pull-left"><a href="#">Blabla</a></li>
 			<img class="text-center logo" src="image/logo_small.png" />
-	        <li class="social pull-right"><a href="#">Blabla</a></li>
+	        <li class="social pull-right"><a href="delete.php">Objets prêtés</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -58,5 +57,4 @@
   	</div>
   	<button class="btn btn-default" type="submit"><a href="facebookconnect/logout.php">Me déconnecter</a></button>
 </div>
-	<button class="btn btn-default btn_deconexion" type="submit"><a href="facebookconnect/logout.php">Me déconnecter</a></button>
 </body>

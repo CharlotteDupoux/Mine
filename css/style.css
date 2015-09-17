@@ -50,14 +50,16 @@ canvas{
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#637aad', endColorstr='#5972a7',GradientType=0);
 	background-color:#637aad;
 	border:1px solid #314179;
+	border-radius: 15px;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:13px;
+	font-size:25px;
 	font-weight:bold;
 	padding:6px 12px;
 	text-decoration:none;
+	margin-top: -60px;
 }
 .btn-fb:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5972a7), color-stop(1, #637aad));

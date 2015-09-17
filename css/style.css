@@ -8,6 +8,11 @@ canvas{
 	width: 100%;
 	height: auto;
 }
+
+#header {
+	background-color: #333333 !important;
+}
+
 #what{
 	margin-top: -25%;
 	border-radius: 50%;
@@ -83,4 +88,17 @@ canvas{
 
 .pass:hover {
 	text-decoration: none;
+}
+
+.container-fluid {
+	padding-right: 0px !important; 
+    padding-left: 0px !important;
+}
+
+.logo {
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	position: center !important;
 }

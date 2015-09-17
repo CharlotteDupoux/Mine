@@ -1,7 +1,7 @@
 <body style="margin:0">
 <div class="container-fluid">
-  	<div class="col-xs-12">
-  		<h2 class="text-center">Mine</h2>
+  	<div class="col-xs-12" id="header">
+  		<img class="logo" src="image/logo_small.png" />
   	</div>
   	<div class="col-xs-12">
 	  	<button type="button" class="btn btn-lg btn-block">What?</button>

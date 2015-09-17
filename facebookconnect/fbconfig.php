@@ -18,7 +18,7 @@ require 'functions.php';
 // init app with app id and secret
 FacebookSession::setDefaultApplication( '1125490214146101','420bc14c2388e1d358499bac911e089a' );
 // login helper with redirect_uri
-    $helper = new FacebookRedirectLoginHelper('http://localhost/BAP-1/facebookconnect/fbconfig.php' );
+    $helper = new FacebookRedirectLoginHelper('http://localhost/mine/facebookconnect/fbconfig.php' );
 try {
   $session = $helper->getSessionFromRedirect();
 } catch( FacebookRequestException $ex ) {

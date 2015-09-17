@@ -22,6 +22,6 @@
 		<canvas id="canvas2" style="border: 5px solid black;"></canvas>
   	</div>
 </div>
-	<button class="btn btn-default" type="submit"><a href="facebookconnect/logout.php">Me déconnecter</a></button>
+	<button class="btn btn-default btn_deconexion" type="submit"><a href="facebookconnect/logout.php">Me déconnecter</a></button>
 	
 </body>

@@ -30,13 +30,17 @@
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
-  	<div class="col-xs-12">
-	  	<button type="button" class="btn btn-lg btn-block">What?</button>
-	  	<video id="video" width="100%" autoplay></video>
-	  	<br>
-	  	<div class="text-center">
-	  		<button type="button" id="what" class="btn btn-xl"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></button>
+	<div class="container">
+	  	<div class="col-xs-12">
+		  	<button type="button" class="btn btn-lg btn-block">What?</button>
+		  	<video id="video" width="100%" autoplay></video>
+		  	<br>
+		  	<div class="text-center">
+		  		<button type="button" id="what" class="btn btn-xl"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></button>
+		  	</div>
+			<canvas id="canvas" style="border: 5px solid black;"></canvas>
 	  	</div>
+<<<<<<< HEAD
 		<canvas id="canvas" width="800" height="600" style="border: 5px solid black;"></canvas>
   	</div>
   	<div class="col-xs-12 text-center">
@@ -54,6 +58,19 @@
 	  		<button type="button" id="who" class="btn btn-xl"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></button>
 	  	</div>
 		<canvas id="canvas2" width="800" height="600" style="border: 5px solid black;"></canvas>
+=======
+    </div>
+  	<div class="container">
+	  	<div class="col-xs-12">
+		  	<button type="button" class="btn btn-lg btn-block">Who?<br></button>
+		  	<video id="video2" width="100%" autoplay></video>
+		  	<br>
+		  	<div class="text-center">
+		  		<button type="button" id="who" class="btn btn-xl"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></button>
+		  	</div>
+			<canvas id="canvas2" style="border: 5px solid black;"></canvas>
+	  	</div>
+>>>>>>> origin/master
   	</div>
   	<button class="btn btn-default" type="submit"><a href="facebookconnect/logout.php">Me déconnecter</a></button>
 </div>

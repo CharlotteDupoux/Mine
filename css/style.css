@@ -89,7 +89,7 @@ canvas{
 }
 
 .pass {
-	color: black;
+	color: white;
 	font-weight: 500;
 }
 
@@ -112,7 +112,7 @@ canvas{
 
 .skip {
 	position: relative;
-	margin-top: 50%;
+	margin-top: 10%;
 	font-size: 17px;
 }
   .navbar-nav {

@@ -9,6 +9,22 @@ function convertCanvasToImageWho(canvas) {
 // Put event listeners into place
 window.addEventListener("DOMContentLoaded", function() {
 
+	$( ".btn-xl" ).hover(
+	  	function() {
+	    	$(this).animate({
+			    opacity: 0.25
+			}, 1000, function() {
+			    // Animation complete.
+			});
+	  	}, function() {
+	    	$(this).animate({
+			    opacity: 1
+			}, 1000, function() {
+			    // Animation complete.
+			});
+	  	}
+	);
+
 	var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 	if (navigator.appVersion.indexOf("Win")!=-1 || navigator.appVersion.indexOf("Mac")!=-1 || navigator.appVersion.indexOf("X11")!=-1 || navigator.appVersion.indexOf("Linux")!=-1){
 		$(".onlyMobile").remove();

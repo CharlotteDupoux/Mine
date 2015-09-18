@@ -11,7 +11,7 @@
       	</button>
 		<img class="logo" src="image/logo_small.png">
 		<div class="col-xs-6" style="position: absolute; right: 0; top: 1em">
-			<btn class="btn btn-danger btn-xs btn-block" role="button" id="suppresion">Suppresion</btn>
+			<btn class="btn btn-danger btn-xs btn-block" role="button" id="suppresion">Suppression</btn>
 			<btn class="btn btn-primary btn-xs" role="button" id="validate">OK</btn>
 		</div>
     </div>

@@ -66,12 +66,15 @@
     <form method="POST" action="try.php">
         <input type="hidden" name="what" value="" id="what-form">
         <input type="hidden" name="who" value="" id="who-form">
+        <input type="text" name="NameObject" value="What ?" id="NameObject">
+        <input type="text" name="NamePerson" value="Who ?" id="NamePerson">
         <input class="bouton" type="submit" name="deconnexion" value="Envoyez">
     </form>
 </div>
 <div class="dashboard">
+    <div class="whatt"> <p class="animenu who animated rubberBand">Who ?</p></div>
 
-    <p class="animenu who animated rubberBand">Who ?</p>
+
     <p class="animenu what animated rubberBand">What ?</p>
 </div>
 </body>

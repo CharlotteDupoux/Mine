@@ -20,7 +20,7 @@
 <div class="text-center"><img class="logo-header" src="image/logo_small.png"></li></div>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse dropdownfix" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="delete.php">Objets prêtés </a></li>
         <li><a href="facebookconnect/logout.php">Se déconnecter</a></li>

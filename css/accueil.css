@@ -59,7 +59,7 @@ nav.navbar.navbar-default {
 .footer {
   background-color: #f79433;
 }
-.div#bs-example-navbar-collapse-1 {
+.dropdownfix {
   position: absolute;
   width: 100%;
   background-color: #333333;

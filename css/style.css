@@ -149,7 +149,11 @@
 	margin-left: -65px;
 	margin-top: 15px;
 }
-
+.glyphicon-cog {
+	color: white;
+	float: right;
+	margin-right: 5px;
+}
 .navbar-header{
     background-color: (51, 51, 51, 0.69);
 }

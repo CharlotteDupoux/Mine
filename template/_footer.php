@@ -9,6 +9,16 @@ function convertCanvasToImageWho(canvas) {
 // Put event listeners into place
 window.addEventListener("DOMContentLoaded", function() {
 
+    //testvic
+
+
+    $('#animenu').click(function() {
+        $('.animenu').addClass('.animenuu');
+    });
+
+    //testvic
+
+
 	//Animation code
 	$( ".btn-xl" ).hover(
 	  	function() {
@@ -133,5 +143,23 @@ window.addEventListener("DOMContentLoaded", function() {
 		convertCanvasToImageWho(canvas2);
 	});
 }, false);
+
+
+
+
+/*
+$('#animenu').click(function() {
+    $('.animenu').addClass('.animenuu');
+    });*/
+
+
+
+
+
+
+
+
+
+
 
 </script>

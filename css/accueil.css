@@ -10,20 +10,28 @@
 }
 .dashboard .what {
   text-align: center;
+<<<<<<< Updated upstream
   right: 22%;
   font-size: 8em;
   position: absolute;
   top: 315px;
   text-align: center;
   color: #f79433;
+=======
+  right: 14%;
+  font-size: 8em;
+  position: absolute;
+  top: 85px;
+  color: #444343;
+>>>>>>> Stashed changes
 }
 .dashboard .who {
   right: 22%;
   font-size: 9em;
   position: absolute;
-  top: 50px;
+  top: 56%;
   text-align: center;
-  color: #444343;
+  color: #f79433;
 }
 .bouton {
   padding: 11px 60px;
@@ -55,4 +63,8 @@ nav.navbar.navbar-default {
 }
 .who-display {
   background-color: #444343;
+  margin-bottom: 0px;
+}
+.footer {
+  background-color: #f79433;
 }

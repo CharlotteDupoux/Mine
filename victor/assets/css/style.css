@@ -76,3 +76,7 @@
 .anim:hover .row3 {
   right: -30px;
 }
+.navbar-header {
+  z-index: 9;
+  overflow: hidden;
+}

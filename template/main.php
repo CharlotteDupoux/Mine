@@ -28,6 +28,9 @@
         <li><a href="facebookconnect/logout.php">Se déconnecter</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
+    <?php if (isset($_SESSION['FBID'])) { ?>
+      <img src="https://graph.facebook.com/<?php echo $_SESSION['FBID'] ?>/picture" style="position: absolute; top: 0; right: 5px">
+    <?php };?>
   </div><!-- /.container-fluid -->
 </nav>
 	<div>

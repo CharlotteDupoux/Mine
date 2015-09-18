@@ -12,9 +12,15 @@ window.addEventListener("DOMContentLoaded", function() {
     //testvic
 
 
-    $('#animenu').click(function() {
+    $('#animenu').click(function(){
         $('.animenu').addClass('.animenuu');
-    });
+        });
+
+
+
+    /*$('#animenu').click(function() {
+        $('.animenu').addClass('.animenuu');
+    });*/
 
     //testvic
 
@@ -35,7 +41,11 @@ window.addEventListener("DOMContentLoaded", function() {
 			});
 	  	}
 	);
+<<<<<<< Updated upstream
 	$( ".what-display").click(function() {
+=======
+	$(".what-display").click(function() {
+>>>>>>> Stashed changes
     	$(".what-display").animate({
 		    width: 'toggle'
 		}, 1000, function() {

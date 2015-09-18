@@ -10,12 +10,6 @@
 }
 .dashboard .what {
   text-align: center;
-  right: 22%;
-  font-size: 8em;
-  position: absolute;
-  top: 315px;
-  text-align: center;
-  color: #f79433;
   right: 14%;
   font-size: 8em;
   position: absolute;
@@ -64,4 +58,10 @@ nav.navbar.navbar-default {
 }
 .footer {
   background-color: #f79433;
+}
+.div#bs-example-navbar-collapse-1 {
+  position: absolute;
+  width: 100%;
+  background-color: #333333;
+  z-index: 1;
 }

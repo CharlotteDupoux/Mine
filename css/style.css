@@ -114,3 +114,12 @@
 .navbar {
 	margin-bottom: 0;
 }
+.navbar-default {
+	background-color: #333333 !important;
+	background-image: none;
+	border: none;
+	border-radius: 0;
+}
+.logo-header {
+	margin-top: 15px;
+}

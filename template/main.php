@@ -17,13 +17,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+<div class="text-center logo-header"><img src="image/logo_small.png"></li></div>
     </div>
-
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Action</a></li>
         <li><a href="#">Action</a></li>
         <li role="separator" class="divider"></li>

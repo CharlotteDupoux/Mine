@@ -1,10 +1,12 @@
 <script type="text/javascript">
 // Converts canvas to an image
 function convertCanvasToImageWhat(canvas) {
+	console.log('fuck1');
 	document.getElementById('what-form').value = canvas.toDataURL('image/png');
 	//return image;
 }
 function convertCanvasToImageWho(canvas) {
+	console.log('fuck2');
 	document.getElementById('who-form').value = canvas.toDataURL('image/png');
 	//return image;
 }
@@ -16,7 +18,7 @@ window.addEventListener("DOMContentLoaded", function() {
 		console.log('a');
 	}*/
 	if (navigator.appVersion.indexOf("Win")!=-1 || navigator.appVersion.indexOf("Mac")!=-1 || navigator.appVersion.indexOf("X11")!=-1 || navigator.appVersion.indexOf("Linux")!=-1){
-		$(".onlyMobile").hide();
+		$(".onlyMobile").remove();
 	}
 	else{
 		$("video").hide();

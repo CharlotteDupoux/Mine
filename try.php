@@ -1,9 +1,9 @@
 <?php
 require 'config/config.php';
 require('model/functions.fn.php');
-
-if (isset($_POST["what"]) && isset($_POST["who"])) {
+var_dump($_POST["what"]);
 	if (!empty($_POST["what"]) && !empty($_POST["who"])) {
+		echo "pass1";
 		//echo $_POST["what"];
 		//prepare what image
 		$img = $_POST['what'];
@@ -26,8 +26,9 @@ if (isset($_POST["what"]) && isset($_POST["who"])) {
 		$photoPerson = substr($fileName2, 6);
 		insertSharedObject($db, "fucj", "you", $photoObject, $photoPerson);
 	}
-	elseif (isset($_FILES['cameraObject'])&&$_FILES['cameraObject']['error']==0 && isset($_FILES['cameraPerson'])&&$_FILES['cameraPerson']['error']==0)
+	/*elseif (isset($_FILES['cameraObject'])&&$_FILES['cameraObject']['error']==0 && isset($_FILES['cameraPerson'])&&$_FILES['cameraPerson']['error']==0)
 	{
+		echo "pass2";
 		if($_FILES['cameraObject']['size']<=2000000 && $_FILES['cameraPerson']['size']<=2000000)
 		{
 			$ext = strtolower(substr(strrchr($_FILES['cameraObject']['name'], '.'),1));
@@ -50,9 +51,8 @@ if (isset($_POST["what"]) && isset($_POST["who"])) {
 				}
 			}
 		}
-	}
-}
+	}*/
 
-header('Location: dashboard.php');
+//header('Location: dashboard.php');
 //echo "<img src=".$_POST["object"].">";
 ?>

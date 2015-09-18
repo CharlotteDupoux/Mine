@@ -26,9 +26,8 @@
 		  		<button type="button" id="what" class="btn btn-xl"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></button>
 		  		<input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraObject" class="onlyMobile">
 		  	</div>
-			<canvas id="canvas" style="border: 5px solid black;"></canvas>
+			<canvas id="canvas" width="800" height="600" style="border: 5px solid black;"></canvas>
 	  	</div>
-		<canvas id="canvas" width="800" height="600" style="border: 5px solid black;"></canvas>
   	</div>
   	<div class="col-xs-12 text-center">
   		<form method="POST" action="try.php">

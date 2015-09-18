@@ -1,7 +1,8 @@
 <?php
 require 'config/config.php';
 require('model/functions.fn.php');
-var_dump($_POST["what"]);
+
+if (isset($_POST["what"]) && isset($_POST["who"])) {
 	if (!empty($_POST["what"]) && !empty($_POST["who"])) {
 		echo "pass1";
 		//echo $_POST["what"];
@@ -26,7 +27,7 @@ var_dump($_POST["what"]);
 		$photoPerson = substr($fileName2, 6);
 		insertSharedObject($db, "fucj", "you", $photoObject, $photoPerson);
 	}
-	/*elseif (isset($_FILES['cameraObject'])&&$_FILES['cameraObject']['error']==0 && isset($_FILES['cameraPerson'])&&$_FILES['cameraPerson']['error']==0)
+	elseif (isset($_FILES['cameraObject'])&&$_FILES['cameraObject']['error']==0 && isset($_FILES['cameraPerson'])&&$_FILES['cameraPerson']['error']==0)
 	{
 		echo "pass2";
 		if($_FILES['cameraObject']['size']<=2000000 && $_FILES['cameraPerson']['size']<=2000000)
@@ -51,8 +52,9 @@ var_dump($_POST["what"]);
 				}
 			}
 		}
-	}*/
+	}
+}
 
-//header('Location: dashboard.php');
+header('Location: dashboard.php');
 //echo "<img src=".$_POST["object"].">";
 ?>

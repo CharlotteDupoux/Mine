@@ -26,11 +26,11 @@
 		  		<button type="button" id="what" class="btn btn-xl"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></button>
 		  		<input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraObject" class="onlyMobile">
 		  	</div>
-			<canvas id="canvas" width="800" height="600" style="border: 5px solid black;"></canvas>
+			<canvas id="canvas" width="400" height="300" style="border: 5px solid black;"></canvas>
 	  	</div>
   	</div>
   	<div class="col-xs-12 text-center">
-  		<form method="POST" action="try.php">
+  		<form method="post" action="try.php" enctype="multipart/form-data">
 			<input type="hidden" name="what" value="" id="what-form">
 			<input type="hidden" name="who" value="" id="who-form">
 			<input type="submit" name="deconnexion" value="Envoyez">
@@ -45,7 +45,7 @@
 		  		<button type="button" id="who" class="btn btn-xl"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></button>
 		  		<input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraPerson" class="onlyMobile">
 		  	</div>
-			<canvas id="canvas2" width="800" height="600" style="border: 5px solid black;"></canvas>
+			<canvas id="canvas2" width="400" height="300" style="border: 5px solid black;"></canvas>
 	  	</div>
   	</div>
   	<button class="btn btn-default" type="submit"><a href="facebookconnect/logout.php">Me déconnecter</a></button>

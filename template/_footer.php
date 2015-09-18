@@ -68,12 +68,12 @@ window.addEventListener("DOMContentLoaded", function() {
 	// Trigger photo take
 	document.getElementById("what").addEventListener("click", function() {
 		console.log('what');
-		context.drawImage(video, 0, 0, 800, 600);
+		context.drawImage(video, 0, 0, 400, 300);
 		convertCanvasToImageWhat(canvas);
 	});
 	document.getElementById("who").addEventListener("click", function() {
 		console.log('who');
-		context2.drawImage(video2, 0, 0, 800, 600);
+		context2.drawImage(video2, 0, 0, 400, 300);
 		convertCanvasToImageWho(canvas2);
 	});
 }, false);

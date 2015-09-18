@@ -18,7 +18,6 @@
         <span class="icon-bar"></span>
       </button>
 <div class="text-center"><img class="logo-header" src="image/logo_small.png"></li></div>
-<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

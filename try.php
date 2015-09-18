@@ -4,6 +4,7 @@ require('model/functions.fn.php');
 
 if (isset($_POST["what"]) && isset($_POST["who"])) {
 	if (!empty($_POST["what"]) && !empty($_POST["who"])) {
+		echo "pass1";
 		//echo $_POST["what"];
 		//prepare what image
 		$img = $_POST['what'];
@@ -28,6 +29,7 @@ if (isset($_POST["what"]) && isset($_POST["who"])) {
 	}
 	elseif (isset($_FILES['cameraObject'])&&$_FILES['cameraObject']['error']==0 && isset($_FILES['cameraPerson'])&&$_FILES['cameraPerson']['error']==0)
 	{
+		echo "pass2";
 		if($_FILES['cameraObject']['size']<=2000000 && $_FILES['cameraPerson']['size']<=2000000)
 		{
 			$ext = strtolower(substr(strrchr($_FILES['cameraObject']['name'], '.'),1));

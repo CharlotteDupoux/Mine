@@ -12,7 +12,7 @@
 	      <ul class="nav navbar-nav">
 	        <li class="pull-left"><a href="#">Blabla</a></li>
 			<img class="text-center logo" src="image/logo_small.png" />
-	        <li class="social pull-right"><a href="delete.php">Objets prêtés</a></li>
+	        <li class="social pull-right"><a href="delete.php"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -46,7 +46,7 @@
 		  		<button type="button" id="who" class="btn btn-xl"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></button>
 		  		<input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraPerson" class="onlyMobile">
 		  	</div>
-			<canvas id="canvas2" style="border: 5px solid black;"></canvas>
+			<canvas id="canvas2" width="800" height="600" style="border: 5px solid black;"></canvas>
 	  	</div>
   	</div>
   	<button class="btn btn-default" type="submit"><a href="facebookconnect/logout.php">Me déconnecter</a></button>

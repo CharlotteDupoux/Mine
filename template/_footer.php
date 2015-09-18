@@ -25,6 +25,24 @@ window.addEventListener("DOMContentLoaded", function() {
 			});
 	  	}
 	);
+	$( ".what-display" ).click(function() {
+  		$(".what-display").hide();
+  		$("#video2").hide();
+  		$("#btn-photo-who").hide();
+  		$("#video").show();
+  		$("#btn-photo-what").show();
+  		$(".who-display").show();
+
+	});
+	$( ".who-display" ).click(function() {
+  		$(".what-display").show();
+  		$("#video2").show();
+  		$("#btn-photo-who").show();
+  		$("#video").hide();
+  		$("#btn-photo-what").hide();
+  		$(".who-display").hide();
+	});
+
 	var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 	if (navigator.appVersion.indexOf("Win")!=-1 || navigator.appVersion.indexOf("Mac")!=-1 || navigator.appVersion.indexOf("X11")!=-1 || navigator.appVersion.indexOf("Linux")!=-1){
 		$(".onlyMobile").remove();

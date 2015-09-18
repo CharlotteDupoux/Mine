@@ -9,5 +9,7 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="model/functions.fn.js"></script>
+    <link rel="stylesheet" href="css/animate.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/accueil.css"/>
 </head>

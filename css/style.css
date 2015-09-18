@@ -26,8 +26,12 @@
 .what-display{
 	width: 100%;
 	height: 250px;
+<<<<<<< Updated upstream
 	background-color: rgba(0,0,0,0.5);
 	margin-bottom: 20px;
+=======
+	background-color: rgb(247, 148, 51);
+>>>>>>> Stashed changes
 }
 .who-info{
 	display: none;
@@ -35,9 +39,13 @@
 .who-display{
 	width: 100%;
 	height: 250px;
+<<<<<<< Updated upstream
 	background-color: rgba(0,0,0,0.5);
 	margin-bottom: 20px;
 
+=======
+	background-color: rgb(68, 67, 67);
+>>>>>>> Stashed changes
 }
 .main-buttons {
 	margin-top: 75%; 
@@ -52,9 +60,7 @@
 }
 
 .btn-fb {
-	-moz-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
-	box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #637aad), color-stop(1, #5972a7));
 	background:-moz-linear-gradient(top, #637aad 5%, #5972a7 100%);
 	background:-webkit-linear-gradient(top, #637aad 5%, #5972a7 100%);
@@ -142,4 +148,8 @@
 .logo-header {
 	margin-left: -65px;
 	margin-top: 15px;
+}
+
+.navbar-header{
+    background-color: (51, 51, 51, 0.69);
 }

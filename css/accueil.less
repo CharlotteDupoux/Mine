@@ -1,0 +1,85 @@
+@orange : rgb(247, 148, 51);
+@gris : rgb(68, 67, 67);
+@font-face {
+  font-family: "cheddar";
+  src: url("../font/cheddar_jack.ttf");
+}
+
+.materialShadow(@level: 1){
+  & when (@level = 1) {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  & when (@level = 2) {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+  & when (@level = 3) {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  & when (@level = 4) {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  & when (@level = 5) {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }
+}
+
+
+
+
+
+.dashboard{
+  width: 100%;
+  p{
+    font-family: "cheddar";
+  }
+  .what{
+    text-align: center;
+    right: 22%;
+    font-size: 10em;
+    position: absolute;
+    top: 350px;
+    color: @orange;
+  }
+  .who{
+    text-align: center;
+    right: 22%;
+    font-size: 10em;
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    color: @gris;
+  }
+}
+
+.bouton{
+  padding: 11px 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: 400ms;
+  color: @orange;
+  background-color: @gris;
+  .materialShadow(@level: 2);
+  border: none;
+  &:hover{
+    background-color: @orange ;
+    color: @gris ;
+    .materialShadow(@level: 3);
+  }
+}
+.navbar-header{
+  background-color: @gris;
+}
+nav.navbar.navbar-default{
+  margin-bottom: 0px;
+}
+.what-display {
+  background-color: @orange;
+  margin-bottom: 0px;
+}
+.who-display{
+  background-color: @gris;
+
+}

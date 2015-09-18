@@ -57,7 +57,7 @@
   		<form method="POST" action="try.php">
 			<input type="hidden" name="what" value="" id="what-form">
 			<input type="hidden" name="who" value="" id="who-form">
-			<input type="submit" name="deconnexion" value="Envoyez">
+			<input class="bouton" type="submit" name="deconnexion" value="Envoyez">
 		</form>
   	</div>
 </body>

@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "cheddar";
+  src: url("../font/cheddar_jack.ttf");
+}
+.dashboard {
+  width: 100%;
+}
+.dashboard p {
+  font-family: "cheddar";
+}
+.dashboard .what {
+  text-align: center;
+  right: 22%;
+  font-size: 10em;
+  position: absolute;
+  top: 350px;
+  color: #f79433;
+}
+.dashboard .who {
+  right: 22%;
+  font-size: 10em;
+  position: absolute;
+  top: 50px;
+  text-align: center;
+  color: #444343;
+}
+.bouton {
+  padding: 11px 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: 400ms;
+  color: #f79433;
+  background-color: #444343;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border: none;
+}
+.bouton:hover {
+  background-color: #f79433;
+  color: #444343;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.navbar-header {
+  background-color: #444343;
+}
+nav.navbar.navbar-default {
+  margin-bottom: 0px;
+}
+.what-display {
+  background-color: #f79433;
+  margin-bottom: 0px;
+}
+.who-display {
+  background-color: #444343;
+}

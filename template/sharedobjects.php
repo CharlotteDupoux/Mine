@@ -1,9 +1,9 @@
 <body>
 <div class="container-fluid">
-<div class="col-xs-3 col-xs-offset-1">
+<div class="col-xs-5">
 	<a href="dashboard.php" class="btn btn-default btn-lg btn-block" role="button">Retour</a>
 </div>
-<div class="col-xs-3 col-xs-offset-4">
+<div class="col-xs-5 col-xs-offset-1">
 	<btn class="btn btn-danger btn-lg btn-block" role="button" id="suppresion">Suppresion</btn>
 	<btn class="btn btn-primary btn-lg" role="button" id="validate">OK</btn>
 </div>
@@ -14,13 +14,7 @@ foreach ($objects as $object) {
 	echo '
 		<div class="row object-display">
 			<div class="col-xs-12">
-				<div class="col-xs-3 col-xs-offset-2">
-					<h3 class="text-center">'.$object['nameObject'].'</h3>
-				</div>
-				<div class="col-xs-3 col-xs-offset-2">
-					<h3 class="text-center">'.$object['namePerson'].'</h3>
-				</div>
-				<div class="delete-object">
+				<div class="col-xs-10 col-xs-offset-10 delete-object">
 					<div class="col-xs-2 delet" style="margin-top:30px;margin-left:-1%">
 						<form method="POST" action="delete.php">
 							<input type="hidden" name="deleting" value="'.$object['ID'].'">
@@ -31,10 +25,10 @@ foreach ($objects as $object) {
 					</div>
 				</div>
 				<br>
-				<div class="col-xs-3 col-xs-offset-2">
+				<div class="col-xs-5">
 					<img src="image/'.$object['photoObject'].'" alt="objet" class="img-responsive">
 				</div>
-				<div class="col-xs-3 col-xs-offset-2">
+				<div class="col-xs-5 col-xs-offset-1">
 					<img src="image/'.$object['photoPerson'].'" alt="objet" class="img-responsive">
 				</div>
 				<br>

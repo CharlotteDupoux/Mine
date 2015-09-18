@@ -1,7 +1,7 @@
 <body>
 <div class="container-fluid">
 <div class="col-xs-10 col-xs-offset-1">
-	<a href="dashboard.php" class="btn btn-default btn-lg btn-block" role="button">Retour</a>
+	<a href="../dashboard.php" class="btn btn-default btn-lg btn-block" role="button">Retour</a>
 </div>
 <?php
 foreach ($objects as $object) {

@@ -22,8 +22,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">Action</a></li>
-        <li><a href="#">Objets prêtés </a></li>
+        <li><a href="template/sharedobjects.php">Objets prêtés </a></li>
         <li role="separator" class="divider"></li>
         <li><a href="facebookconnect/logout.php">Se déconnecter</a></li>
       </ul>

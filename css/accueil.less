@@ -108,3 +108,85 @@ margin-top: 10px;
   text-transform: uppercase;
   text-align: center;
 }
+
+// SHARED OBJECT
+
+
+.object-display{
+  background-color: @orange;
+  height: 230px;
+  .separation{
+    height: 2px;
+    background-color: rgba(68, 67, 67, 0.17);
+  }
+  .photoobjet{
+    height: 100px;
+    width: auto;
+    border-radius: 62%;
+    border: 2px solid white;
+    top: 30px;
+    position: absolute;
+    .materialShadow(@level: 4)
+  }
+  .photopersonne{
+    height: 100px;
+    width: auto;
+    border-radius: 62%;
+    border: 2px solid white;
+    position: absolute;
+    top: 30px;
+    .materialShadow(@level: 4)
+  }
+  .fa-pencil{
+    color :@gris ;
+    top: -70px;
+    position: absolute;
+  }
+  .fa-bell-o{
+    color :@gris ;
+    position: absolute;
+    right: -4px;
+    top: 110px;
+  }
+  small{
+    position: absolute;
+    bottom: -157px;
+    left: 127px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+
+  }
+  .what-ok{
+    font-family: "cheddar";
+    font-size: 2em;
+  }
+  .cki{
+    position: absolute;
+    top: 160px;
+    left: 33px;
+    font-size: 1.3em;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+  }
+  .ckoi{
+    position: absolute;
+    top: 160px;
+    left: 246px;
+    font-size: 1.3em;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+
+  }
+}
+btn#suppresion{
+  position: absolute;
+  top: 5px;
+  color: orange;
+  right: -15px;
+}
+.container-fluid{
+  background-color: rgb(68, 67, 67);
+}
+
+// SHARED OBJECT end

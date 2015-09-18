@@ -10,17 +10,17 @@
 }
 .dashboard .what {
   text-align: center;
-  width: 100%;
+  right: 14%;
   font-size: 8em;
   position: absolute;
   top: 85px;
   color: #444343;
 }
 .dashboard .who {
+  right: 22%;
   font-size: 9em;
-  width: 100%;
   position: absolute;
-  top: 330px;
+  top: 56%;
   text-align: center;
   color: #f79433;
 }
@@ -75,4 +75,78 @@ nav.navbar.navbar-default {
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;
+}
+.object-display {
+  background-color: #f79433;
+  height: 230px;
+}
+.object-display .separation {
+  height: 2px;
+  background-color: rgba(68, 67, 67, 0.17);
+}
+.object-display .photoobjet {
+  height: 100px;
+  width: auto;
+  border-radius: 62%;
+  border: 2px solid white;
+  top: 30px;
+  position: absolute;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.object-display .photopersonne {
+  height: 100px;
+  width: auto;
+  border-radius: 62%;
+  border: 2px solid white;
+  position: absolute;
+  top: 30px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.object-display .fa-pencil {
+  color: #444343;
+  top: -70px;
+  position: absolute;
+}
+.object-display .fa-bell-o {
+  color: #444343;
+  position: absolute;
+  right: -4px;
+  top: 110px;
+}
+.object-display small {
+  position: absolute;
+  bottom: -157px;
+  left: 127px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+}
+.object-display .what-ok {
+  font-family: "cheddar";
+  font-size: 2em;
+}
+.object-display .cki {
+  position: absolute;
+  top: 160px;
+  left: 33px;
+  font-size: 1.3em;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+}
+.object-display .ckoi {
+  position: absolute;
+  top: 160px;
+  left: 246px;
+  font-size: 1.3em;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+}
+btn#suppresion {
+  position: absolute;
+  top: 5px;
+  color: orange;
+  right: -15px;
+}
+.container-fluid {
+  background-color: #444343;
 }

@@ -25,7 +25,7 @@ if (isset($_POST["what"]) && isset($_POST["who"])) {
 		file_put_contents($fileName2, $fileData);
 		$photoObject = substr($fileName1, 6);
 		$photoPerson = substr($fileName2, 6);
-		insertSharedObject($db, "fucj", "you", $photoObject, $photoPerson);
+		insertSharedObject($db, "nameobject", "nameperson", $photoObject, $photoPerson);
 	}
 	elseif (isset($_FILES['cameraObject'])&&$_FILES['cameraObject']['error']==0 && isset($_FILES['cameraPerson'])&&$_FILES['cameraPerson']['error']==0)
 	{

@@ -4,7 +4,6 @@ require('model/functions.fn.php');
 
 if (isset($_POST["what"]) && isset($_POST["who"])) {
 	if (!empty($_POST["what"]) && !empty($_POST["who"])) {
-		echo "pass1";
 		//echo $_POST["what"];
 		//prepare what image
 		$img = $_POST['what'];
@@ -29,7 +28,6 @@ if (isset($_POST["what"]) && isset($_POST["who"])) {
 	}
 	elseif (isset($_FILES['cameraObject'])&&$_FILES['cameraObject']['error']==0 && isset($_FILES['cameraPerson'])&&$_FILES['cameraPerson']['error']==0)
 	{
-		echo "pass2";
 		if($_FILES['cameraObject']['size']<=2000000 && $_FILES['cameraPerson']['size']<=2000000)
 		{
 			$ext = strtolower(substr(strrchr($_FILES['cameraObject']['name'], '.'),1));
@@ -48,13 +46,13 @@ if (isset($_POST["what"]) && isset($_POST["who"])) {
 					move_uploaded_file($_FILES['cameraPerson']['tmp_name'],$path2);
 					$image = substr($path, 6);
 					$image2 = substr($path2, 6);
-					header('Location: dashboard.php');
+					header('Location: delete.php');
 				}
 			}
 		}
 	}
 }
 
-header('Location: dashboard.php');
+header('Location: delete.php');
 //echo "<img src=".$_POST["object"].">";
 ?>

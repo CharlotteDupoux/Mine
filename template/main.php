@@ -20,7 +20,7 @@
 <div class="text-center"><img class="logo-header" src="image/logo_small.png"></li></div>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse" style="position:absolute;background-color:#333;width:100%;z-index:1" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="delete.php">Objets prêtés </a></li>
         <li><a href="facebookconnect/logout.php">Se déconnecter</a></li>
@@ -30,14 +30,6 @@
       <img src="https://graph.facebook.com/<?php echo $_SESSION['FBID'] ?>/picture" alt="<?php $_SESSION['FULLNAME'] ?>" style="position: absolute; top: 0; right: 5px">
     <?php };?>
   </div><!-- /.container-fluid -->
-<!--<div class="col-xs-10 col-xs-offset-1" id="header">
-      <img class="logo" src="image/logo_small.png" class="center-block"/>
-  </div>
-  <div class="col-xs-1">
-  </div>
-  <div class="col-xs-12" id="header">
-      <img class="text-center logo" src="image/logo_small.png" />
-  </div>-->
 <div>
     <div class="what-display"></div>
     <div class="what-info">

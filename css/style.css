@@ -133,7 +133,7 @@
 
 .navbar {
 	margin-bottom: 0;
-	z-index: 2;
+	z-index: 9;
 }
 .navbar-default {
 	background-color: #333333 !important;

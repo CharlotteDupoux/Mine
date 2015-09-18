@@ -10,23 +10,17 @@
 }
 .dashboard .what {
   text-align: center;
-  right: 22%;
-  font-size: 8em;
-  position: absolute;
-  top: 315px;
-  text-align: center;
-  color: #f79433;
-  right: 14%;
+  width: 100%;
   font-size: 8em;
   position: absolute;
   top: 85px;
   color: #444343;
 }
 .dashboard .who {
-  right: 22%;
+  width: 100%;
   font-size: 9em;
   position: absolute;
-  top: 56%;
+  top: 330px;
   text-align: center;
   color: #f79433;
 }

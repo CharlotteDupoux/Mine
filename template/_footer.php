@@ -50,7 +50,38 @@ window.addEventListener("DOMContentLoaded", function() {
 	  	});
   		//$(".who-info").hide();
 	});
+	$( ".what").click(function() {
+    	$(".what-display").animate({
+		    width: 'toggle'
+		}, 1000, function() {
+		    $(".what-display").hide();
+		    $(".what").fadeOut();
+		    $( ".what-info" ).fadeIn( "fast");
+		});
+  		$( ".who-display" ).fadeIn( "fast", function() {
+	    	$( ".who-info" ).fadeOut( "fast", function() {
+		    	$(".who").fadeIn();
+		  	});
+	  	});
+  		//$(".who-info").hide();
+	});
 	$( ".who-display" ).click(function() {
+		$(".who-display").animate({
+		    width: 'toggle'
+		}, 1000, function() {
+		    $(".who-display").hide();
+		    $(".who").fadeOut();
+		    $( ".who-info" ).fadeIn( "fast");
+		});
+  		//$(".what-display").show();
+  		$( ".what-display" ).fadeIn( "fast", function() {
+	    	$( ".what-info" ).fadeOut( "fast", function() {
+		    	$(".what").fadeIn();
+		  	});
+	  	});
+  		//$(".what-info").hide();
+	});
+	$( ".who" ).click(function() {
 		$(".who-display").animate({
 		    width: 'toggle'
 		}, 1000, function() {

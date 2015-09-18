@@ -26,17 +26,29 @@ window.addEventListener("DOMContentLoaded", function() {
 	  	}
 	);
 	$( ".what-display" ).click(function() {
-  		$(".what-display").hide();
-  		$(".what-info").show();
+    	$(".what-display").animate({
+		    width: 'toggle'
+		}, 1000, function() {
+		    $(".what-display").hide();
+		    $( ".what-info" ).fadeIn( "fast", function() {
+		    	// Animation complete
+		  	});
+		});
   		$(".who-display").show();
   		$(".who-info").hide();
 
 	});
 	$( ".who-display" ).click(function() {
+		$(".who-display").animate({
+		    width: 'toggle'
+		}, 1000, function() {
+		    $(".who-display").hide();
+		    $( ".who-info" ).fadeIn( "fast", function() {
+		    	// Animation complete
+		  	});
+		});
   		$(".what-display").show();
   		$(".what-info").hide();
-  		$(".who-display").hide();
-  		$(".who-info").show();
   		
 	});
 

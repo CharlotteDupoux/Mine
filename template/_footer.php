@@ -35,7 +35,7 @@ window.addEventListener("DOMContentLoaded", function() {
 			});
 	  	}
 	);
-	$( ".what-display" ).click(function() {
+	$( ".what-display").click(function() {
     	$(".what-display").animate({
 		    width: 'toggle'
 		}, 1000, function() {
@@ -43,13 +43,11 @@ window.addEventListener("DOMContentLoaded", function() {
 		    $(".what").fadeOut();
 		    $( ".what-info" ).fadeIn( "fast");
 		});
-  		//$(".who-display").show();
   		$( ".who-display" ).fadeIn( "fast", function() {
 	    	$( ".who-info" ).fadeOut( "fast", function() {
 		    	$(".who").fadeIn();
 		  	});
 	  	});
-  		
   		//$(".who-info").hide();
 	});
 	$( ".who-display" ).click(function() {

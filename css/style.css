@@ -97,11 +97,6 @@ canvas{
 	text-decoration: none;
 }
 
-.container-fluid {
-	padding-right: 0px !important; 
-    padding-left: 0px !important;
-}
-
 .logo {
 	margin-right: 5px;
 	margin-left: 5px;
@@ -115,19 +110,12 @@ canvas{
 	margin-top: 10%;
 	font-size: 17px;
 }
-  .navbar-nav {
-    width: 100%;
-    text-align: center;
-    > li {
-      float: none;
-      display: inline-block;
-    }
-  }
 
-.navbar-grey {
-	background-color: #333333;
+.navbar-toggle {
+	float: left;
+	margin-left: 5px;
 }
 
 .navbar {
-	    border-radius: 0px !important;
+	margin-bottom: 0;
 }

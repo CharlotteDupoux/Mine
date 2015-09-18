@@ -9,15 +9,18 @@
 }
 
 #what{
-	margin-top: -25%;
+	margin-top: -35%;
 	border-radius: 50%;
 }
 #who{
-	margin-top: -25%;
+	margin-top: -35%;
 	border-radius: 50%;
 }
 .container {
 	height: 100%;
+}
+#video2 {
+	margin-top: -25px;
 }
 
 .main-buttons {
@@ -50,7 +53,7 @@
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:45px;
+	font-size:30px;
 	font-weight:bold;
 	padding:6px 12px;
 	text-decoration:none;
@@ -103,7 +106,7 @@
 .skip {
 	position: relative;
 	margin-top: 10%;
-	font-size: 35px;
+	font-size: 20px;
 }
 
 .navbar-toggle {
@@ -121,5 +124,6 @@
 	border-radius: 0;
 }
 .logo-header {
+	margin-left: -65px;
 	margin-top: 15px;
 }

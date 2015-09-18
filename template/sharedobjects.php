@@ -32,22 +32,21 @@ foreach ($objects as $object) {
 	$daterefine = str_replace('-', '/', $date);
 	echo '
 		<div class="row object-display">
-			<div class="col-xs-12">
-				<div class="col-xs-10 col-xs-offset-10 delete-object">
-					<div class="col-xs-2 delet" style="margin-top:30px;">
+			<div class="col-xs-12" style="margin-top:15px">
+				<div class="col-xs-12 delete-object">
+					<div class="col-xs-1 col-xs-offset-10 delet">
 						<form method="POST" action="delete.php">
 							<input type="hidden" name="deleting" value="'.$object['ID'].'">
-							<button type="submit" class="btn btn-danger btn-block" style="padding-top:15px;position:absolute;margin-top:30%;min-width:200%;">
+							<button type="submit" class="btn btn-danger btn-block" style="position:absolute;min-width:200%;">
 								<span class="glyphicon glyphicon-trash" aria-hidden="true" style="font-size:200%"></span>
 							</button>
 						</form>
 					</div>
 				</div>
-				<br>
 				<div class="col-xs-5">
 					<img src="image/'.$object['photoObject'].'" alt="objet" class="img-responsive">
 				</div>
-				<div class="col-xs-5 col-xs-offset-1">
+				<div class="col-xs-5">
 					<img src="image/'.$object['photoPerson'].'" alt="objet" class="img-responsive">
 				</div>
 				<br>

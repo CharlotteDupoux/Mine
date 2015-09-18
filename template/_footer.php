@@ -30,14 +30,13 @@ window.addEventListener("DOMContentLoaded", function() {
 		    width: 'toggle'
 		}, 1000, function() {
 		    $(".what-display").hide();
-		    $( ".what-info" ).fadeIn( "fast", function() {
-		    	// Animation complete
-		  	});
+		    $(".what").fadeOut();
+		    $( ".what-info" ).fadeIn( "fast");
 		});
   		//$(".who-display").show();
   		$( ".who-display" ).fadeIn( "fast", function() {
 	    	$( ".who-info" ).fadeOut( "fast", function() {
-		    	// Animation complete
+		    	$(".who").fadeIn();
 		  	});
 	  	});
   		
@@ -48,14 +47,13 @@ window.addEventListener("DOMContentLoaded", function() {
 		    width: 'toggle'
 		}, 1000, function() {
 		    $(".who-display").hide();
-		    $( ".who-info" ).fadeIn( "fast", function() {
-		    	// Animation complete
-		  	});
+		    $(".who").fadeOut();
+		    $( ".who-info" ).fadeIn( "fast");
 		});
   		//$(".what-display").show();
   		$( ".what-display" ).fadeIn( "fast", function() {
 	    	$( ".what-info" ).fadeOut( "fast", function() {
-		    	// Animation complete
+		    	$(".what").fadeIn();
 		  	});
 	  	});
   		//$(".what-info").hide();

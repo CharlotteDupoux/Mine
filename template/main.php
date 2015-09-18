@@ -64,4 +64,8 @@
 			<input class="bouton" type="submit" name="deconnexion" value="Envoyez">
 		</form>
   	</div>
+  	<div class="dashboard">
+	    <p class="what animated rubberBand">What ?</p>
+	    <p class="who animated rubberBand">Who ?</p>
+	</div>
 </body>

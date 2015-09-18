@@ -31,10 +31,11 @@
   </div><!-- /.container-fluid -->
 </nav>
 	<div>
-	  	<div>
+		<div class="what-display"></div>
+	  	<div class="what-info">
 		  	<video id="video" width="100%" autoplay></video>
 		  	<br>
-		  	<div class="text-center">
+		  	<div class="text-center" id="btn-photo-what">
 		  		<button type="button" id="what" class="btn btn-xl"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></button>
 		  		<input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraObject" class="onlyMobile">
 		  	</div>
@@ -42,10 +43,11 @@
 	  	</div>
   	</div>
   	<div>
-	  	<div>
+  		<div class="who-display"></div>
+	  	<div class="who-info">
 		  	<video id="video2" width="100%" autoplay></video>
 		  	<br>
-		  	<div class="text-center">
+		  	<div class="text-center" id="btn-photo-who">
 		  		<button type="button" id="who" class="btn btn-xl"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></button>
 		  		<input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraPerson" class="onlyMobile">
 		  	</div>

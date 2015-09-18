@@ -34,18 +34,6 @@
 </nav>
 	<div>
 	  	<div>
-	<nav class="navbar navbar-grey" role="navigation">
-	      <ul class="nav navbar-nav">
-	        <li class="pull-left"><a href="#">Blabla</a></li>
-			<img class="text-center logo" src="image/logo_small.png" />
-	        <li class="social pull-right"><a href="delete.php"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a></li>
-	      </ul>
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
-	</nav>
-	<div class="container">
-	  	<div class="col-xs-12">
-		  	<button type="button" class="btn btn-lg btn-block">What?</button>
 		  	<video id="video" width="100%" autoplay></video>
 		  	<br>
 		  	<div class="text-center">
@@ -57,16 +45,6 @@
   	</div>
   	<div>
 	  	<div>
-  	<div class="col-xs-12 text-center">
-  		<form method="post" action="try.php" enctype="multipart/form-data">
-			<input type="hidden" name="what" value="" id="what-form">
-			<input type="hidden" name="who" value="" id="who-form">
-			<input type="submit" name="deconnexion" value="Envoyez">
-		</form>
-  	</div>
-  	<div class="container">
-	  	<div class="col-xs-12">
-		  	<button type="button" class="btn btn-lg btn-block">Who?<br></button>
 		  	<video id="video2" width="100%" autoplay></video>
 		  	<br>
 		  	<div class="text-center">

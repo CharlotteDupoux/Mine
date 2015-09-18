@@ -29,6 +29,7 @@
 	width: 100%;
 	height: 250px;
 	background-color: rgba(0,0,0,0.5);
+	margin-bottom: 20px;
 }
 .who-info{
 	display: none;
@@ -37,6 +38,7 @@
 	width: 100%;
 	height: 250px;
 	background-color: rgba(0,0,0,0.5);
+	margin-bottom: 20px;
 }
 .main-buttons {
 	margin-top: 75%; 

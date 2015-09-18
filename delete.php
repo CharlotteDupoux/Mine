@@ -5,7 +5,9 @@ require('model/functions.fn.php');
 if (isset($_POST)) {
 	if (isset($_POST['deleting'])) {
 		deleteElement($db, $_POST['deleting']);
-		header('Location: delete.php');
+		echo '<div id="allowDelete"></div>';
+		$objects = '';
+		$objects = selectSharedObjects($db);
 	}
 }
 

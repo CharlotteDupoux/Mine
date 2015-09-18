@@ -9,10 +9,10 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
       	</button>
-		<img class="logo-header center-block" src="image/logo_small.png">
-		<div class="col-xs-12">
-			<btn class="btn btn-danger btn-lg btn-block" role="button" id="suppresion">Suppresion</btn>
-			<btn class="btn btn-primary btn-lg" role="button" id="validate">OK</btn>
+		<img class="logo" src="image/logo_small.png">
+		<div class="col-xs-6" style="position: absolute; right: 0; top: 1em">
+			<btn class="btn btn-danger btn-xs btn-block" role="button" id="suppresion">Suppresion</btn>
+			<btn class="btn btn-primary btn-xs" role="button" id="validate">OK</btn>
 		</div>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->

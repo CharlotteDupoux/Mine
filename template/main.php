@@ -28,10 +28,6 @@
 		  	</div>
 			<canvas id="canvas" style="border: 5px solid black;"></canvas>
 	  	</div>
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
 		<canvas id="canvas" width="800" height="600" style="border: 5px solid black;"></canvas>
   	</div>
   	<div class="col-xs-12 text-center">
@@ -41,19 +37,6 @@
 			<input type="submit" name="deconnexion" value="Envoyez">
 		</form>
   	</div>
-<<<<<<< HEAD
-  	<div class="col-xs-12">
-	  	<button type="button" class="btn btn-lg btn-block">Who?<br></button>
-	  	<video id="video2" width="100%" autoplay></video>
-	  	<br>
-	  	<div class="text-center">
-	  		<button type="button" id="who" class="btn btn-xl"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></button>
-	  	</div>
-		<canvas id="canvas2" width="800" height="600" style="border: 5px solid black;"></canvas>
-
-    </div>
-=======
->>>>>>> origin/master
   	<div class="container">
 	  	<div class="col-xs-12">
 		  	<button type="button" class="btn btn-lg btn-block">Who?<br></button>
@@ -65,10 +48,6 @@
 		  	</div>
 			<canvas id="canvas2" style="border: 5px solid black;"></canvas>
 	  	</div>
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
   	</div>
   	<button class="btn btn-default" type="submit"><a href="facebookconnect/logout.php">Me déconnecter</a></button>
 </div>

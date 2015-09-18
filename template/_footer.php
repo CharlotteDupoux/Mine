@@ -34,8 +34,14 @@ window.addEventListener("DOMContentLoaded", function() {
 		    	// Animation complete
 		  	});
 		});
-  		$(".who-display").show();
-  		$(".who-info").hide();
+  		//$(".who-display").show();
+  		$( ".who-display" ).fadeIn( "fast", function() {
+	    	$( ".who-info" ).fadeOut( "fast", function() {
+		    	// Animation complete
+		  	});
+	  	});
+  		
+  		//$(".who-info").hide();
 	});
 	$( ".who-display" ).click(function() {
 		$(".who-display").animate({
@@ -46,8 +52,13 @@ window.addEventListener("DOMContentLoaded", function() {
 		    	// Animation complete
 		  	});
 		});
-  		$(".what-display").show();
-  		$(".what-info").hide();
+  		//$(".what-display").show();
+  		$( ".what-display" ).fadeIn( "fast", function() {
+	    	$( ".what-info" ).fadeOut( "fast", function() {
+		    	// Animation complete
+		  	});
+	  	});
+  		//$(".what-info").hide();
 	});
 	$("#suppresion").click(function() {
 		$( ".delete-object" ).children().fadeIn( 1000, function() {

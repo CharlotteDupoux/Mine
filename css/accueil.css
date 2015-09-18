@@ -11,14 +11,15 @@
 .dashboard .what {
   text-align: center;
   right: 22%;
-  font-size: 10em;
+  font-size: 8em;
   position: absolute;
-  top: 350px;
+  top: 315px;
+  text-align: center;
   color: #f79433;
 }
 .dashboard .who {
   right: 22%;
-  font-size: 10em;
+  font-size: 9em;
   position: absolute;
   top: 50px;
   text-align: center;

@@ -23,7 +23,6 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="delete.php">Objets prêtés </a></li>
-        <li role="separator" class="divider"></li>
         <li><a href="facebookconnect/logout.php">Se déconnecter</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->

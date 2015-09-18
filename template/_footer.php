@@ -27,20 +27,17 @@ window.addEventListener("DOMContentLoaded", function() {
 	);
 	$( ".what-display" ).click(function() {
   		$(".what-display").hide();
-  		$("#video2").hide();
-  		$("#btn-photo-who").hide();
-  		$("#video").show();
-  		$("#btn-photo-what").show();
+  		$(".what-info").show();
   		$(".who-display").show();
+  		$(".who-info").hide();
 
 	});
 	$( ".who-display" ).click(function() {
   		$(".what-display").show();
-  		$("#video2").show();
-  		$("#btn-photo-who").show();
-  		$("#video").hide();
-  		$("#btn-photo-what").hide();
+  		$(".what-info").hide();
   		$(".who-display").hide();
+  		$(".who-info").show();
+  		
 	});
 
 	var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;

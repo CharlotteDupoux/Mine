@@ -31,8 +31,8 @@
   </div><!-- /.container-fluid -->
 </nav>
 	<div>
-	  	<div>
-	  		<div class="what-display"></div>
+		<div class="what-display"></div>
+	  	<div class="what-info">
 		  	<video id="video" width="100%" autoplay></video>
 		  	<br>
 		  	<div class="text-center" id="btn-photo-what">
@@ -43,8 +43,8 @@
 	  	</div>
   	</div>
   	<div>
-	  	<div>
-	  		<div class="who-display"></div>
+  		<div class="who-display"></div>
+	  	<div class="who-info">
 		  	<video id="video2" width="100%" autoplay></video>
 		  	<br>
 		  	<div class="text-center" id="btn-photo-who">

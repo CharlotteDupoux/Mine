@@ -65,3 +65,14 @@ nav.navbar.navbar-default {
   background-color: #333333;
   z-index: 1;
 }
+.formtest {
+  margin-top: 10px;
+}
+.formtest {
+  padding: 5px 0px;
+  font-size: 1.1em;
+  border-radius: 5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}

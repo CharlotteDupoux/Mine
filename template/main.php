@@ -67,8 +67,8 @@
     <form method="POST" action="try.php">
         <input type="hidden" name="what" value="" id="what-form">
         <input type="hidden" name="who" value="" id="who-form">
-        <input type="text" name="NameObject" value="" id="NameObject" placeholder="What ?">
-        <input type="text" name="NamePerson" value="" id="NamePerson" placeholder="Who ?">
+        <input class="formtest" type="text" name="NameObject" value="" id="NameObject" placeholder="What ?">
+        <input class="formtest" type="text" name="NamePerson" value="" id="NamePerson" placeholder="Who ?">
         <input class="bouton" type="submit" name="deconnexion" value="Envoyez">
     </form>
 </div>

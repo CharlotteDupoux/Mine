@@ -1,26 +1,19 @@
 <script type="text/javascript">
 // Converts canvas to an image
 function convertCanvasToImageWhat(canvas) {
-	console.log('fuck1');
 	document.getElementById('what-form').value = canvas.toDataURL('image/png');
-	//return image;
 }
 function convertCanvasToImageWho(canvas) {
-	console.log('fuck2');
 	document.getElementById('who-form').value = canvas.toDataURL('image/png');
-	//return image;
 }
 // Put event listeners into place
 window.addEventListener("DOMContentLoaded", function() {
-	/*var isAndroid = /(android)/i.test(navigator.userAgent)
-	var isMobile = /(mobile)/i.test(navigator.userAgent)
-	if (isAndroid || isMobile) {
-		console.log('a');
-	}*/
+
+	var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 	if (navigator.appVersion.indexOf("Win")!=-1 || navigator.appVersion.indexOf("Mac")!=-1 || navigator.appVersion.indexOf("X11")!=-1 || navigator.appVersion.indexOf("Linux")!=-1){
 		$(".onlyMobile").remove();
 	}
-	else{
+	else if(iOS == true){
 		$("video").hide();
 	}
 

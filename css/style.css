@@ -30,12 +30,8 @@
 .what-display{
 	width: 100%;
 	height: 250px;
-<<<<<<< Updated upstream
-	background-color: rgba(0,0,0,0.5);
 	margin-bottom: 20px;
-=======
 	background-color: rgb(247, 148, 51);
->>>>>>> Stashed changes
 }
 .who-info{
 	display: none;
@@ -43,13 +39,8 @@
 .who-display{
 	width: 100%;
 	height: 250px;
-<<<<<<< Updated upstream
-	background-color: rgba(0,0,0,0.5);
 	margin-bottom: 20px;
-
-=======
 	background-color: rgb(68, 67, 67);
->>>>>>> Stashed changes
 }
 .main-buttons {
 	margin-top: 75%; 

@@ -10,7 +10,7 @@
 	        <span class="icon-bar"></span>
       	</button>
 		<img class="logo-header center-block" src="image/logo_small.png">
-		<div class="col-xs-6 col-xs-offset-3">
+		<div class="col-xs-12">
 			<btn class="btn btn-danger btn-lg btn-block" role="button" id="suppresion">Suppresion</btn>
 			<btn class="btn btn-primary btn-lg" role="button" id="validate">OK</btn>
 		</div>
@@ -34,10 +34,10 @@ foreach ($objects as $object) {
 		<div class="row object-display">
 			<div class="col-xs-12">
 				<div class="col-xs-10 col-xs-offset-10 delete-object">
-					<div class="col-xs-2 delet" style="margin-top:30px;margin-left:-1%">
+					<div class="col-xs-2 delet" style="margin-top:30px;">
 						<form method="POST" action="delete.php">
 							<input type="hidden" name="deleting" value="'.$object['ID'].'">
-							<button type="submit" class="btn btn-danger btn-block" style="padding-top:15px;position:absolute;margin-top:30%;">
+							<button type="submit" class="btn btn-danger btn-block" style="padding-top:15px;position:absolute;margin-top:30%;min-width:200%;">
 								<span class="glyphicon glyphicon-trash" aria-hidden="true" style="font-size:200%"></span>
 							</button>
 						</form>

@@ -27,21 +27,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.7395833">
       <split-first>
         <leaf>
-          <file leaf-file-name="accueil.less" pinned="false" current-in-tab="true">
+          <file leaf-file-name="accueil.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/accueil.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.72817135" vertical-offset="923" max-vertical-offset="1530">
-                  <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+                <state vertical-scroll-proportion="-10.916667" vertical-offset="923" max-vertical-offset="1530">
+                  <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/template/main.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.7843137" vertical-offset="137" max-vertical-offset="1320">
-                  <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+                <state vertical-scroll-proportion="0.33275864" vertical-offset="512" max-vertical-offset="1290">
+                  <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
                   <folding>
                     <element signature="n#style#0;n#img#0;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#canvas#0;n#div#1;n#div#1;n#nav#0;n#body#0;n#!!top" expanded="true" />
@@ -94,14 +94,14 @@
           <file leaf-file-name="_footer.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/template/_footer.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.375" vertical-offset="30" max-vertical-offset="2670">
-                  <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+                <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="2445">
+                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                   <folding>
-                    <marker date="1442583223000" expanded="true" signature="1023:1426" placeholder="{...}" />
-                    <marker date="1442583223000" expanded="true" signature="1026:1060" placeholder="{&quot;width&quot;: 'toggle'...}" />
-                    <marker date="1442583223000" expanded="true" signature="1079:1173" placeholder="{...}" />
-                    <marker date="1442583223000" expanded="true" signature="1290:1383" placeholder="{...}" />
-                    <marker date="1442583223000" expanded="true" signature="1296:1357" placeholder="{...}" />
+                    <marker date="1442583447000" expanded="true" signature="801:1204" placeholder="{...}" />
+                    <marker date="1442583447000" expanded="true" signature="804:838" placeholder="{&quot;width&quot;: 'toggle'...}" />
+                    <marker date="1442583447000" expanded="true" signature="857:951" placeholder="{...}" />
+                    <marker date="1442583447000" expanded="true" signature="1068:1161" placeholder="{...}" />
+                    <marker date="1442583447000" expanded="true" signature="1074:1135" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -114,8 +114,8 @@
           <file leaf-file-name="_footer.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/template/_footer.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6425041" vertical-offset="30" max-vertical-offset="2670">
-                  <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+                <state vertical-scroll-proportion="0.42009884" vertical-offset="615" max-vertical-offset="2445">
+                  <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -133,9 +133,9 @@
         <option value="$PROJECT_DIR$/template/_header.php" />
         <option value="$PROJECT_DIR$/victor/assets/css/style.less" />
         <option value="$PROJECT_DIR$/config/config.php" />
+        <option value="$PROJECT_DIR$/css/accueil.less" />
         <option value="$PROJECT_DIR$/template/_footer.php" />
         <option value="$PROJECT_DIR$/template/main.php" />
-        <option value="$PROJECT_DIR$/css/accueil.less" />
       </list>
     </option>
   </component>
@@ -254,52 +254,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accueil.less" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -463,37 +417,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/accueil.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.916667" vertical-offset="923" max-vertical-offset="1530">
+          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/template/_footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375" vertical-offset="30" max-vertical-offset="2670">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="2445">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <marker date="1442583223000" expanded="true" signature="1023:1426" placeholder="{...}" />
-            <marker date="1442583223000" expanded="true" signature="1026:1060" placeholder="{&quot;width&quot;: 'toggle'...}" />
-            <marker date="1442583223000" expanded="true" signature="1079:1173" placeholder="{...}" />
-            <marker date="1442583223000" expanded="true" signature="1290:1383" placeholder="{...}" />
-            <marker date="1442583223000" expanded="true" signature="1296:1357" placeholder="{...}" />
+            <marker date="1442583447000" expanded="true" signature="801:1204" placeholder="{...}" />
+            <marker date="1442583447000" expanded="true" signature="804:838" placeholder="{&quot;width&quot;: 'toggle'...}" />
+            <marker date="1442583447000" expanded="true" signature="857:951" placeholder="{...}" />
+            <marker date="1442583447000" expanded="true" signature="1068:1161" placeholder="{...}" />
+            <marker date="1442583447000" expanded="true" signature="1074:1135" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7843137" vertical-offset="137" max-vertical-offset="1320">
-          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.33275864" vertical-offset="512" max-vertical-offset="1290">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#nav#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#div#1;n#div#1;n#nav#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#div#1;n#div#2;n#nav#0;n#body#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/accueil.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72817135" vertical-offset="923" max-vertical-offset="1530">
-          <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>

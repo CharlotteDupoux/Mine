@@ -29,7 +29,8 @@
     <?php if (isset($_SESSION['FBID'])) { ?>
       <img src="https://graph.facebook.com/<?php echo $_SESSION['FBID'] ?>/picture" alt="<?php $_SESSION['FULLNAME'] ?>" style="position: absolute; top: 0; right: 5px">
     <?php };?>
-  </div><!-- /.container-fluid -->
+  </div>
+        <!-- /.container-fluid -->
 <!--<div class="col-xs-10 col-xs-offset-1" id="header">
       <img class="logo" src="image/logo_small.png" class="center-block"/>
   </div>
@@ -66,18 +67,15 @@
     <form method="POST" action="try.php">
         <input type="hidden" name="what" value="" id="what-form">
         <input type="hidden" name="who" value="" id="who-form">
-<<<<<<< Updated upstream
         <input type="text" name="NameObject" value="" id="NameObject" placeholder="What ?">
         <input type="text" name="NamePerson" value="" id="NamePerson" placeholder="Who ?">
-=======
->>>>>>> Stashed changes
         <input class="bouton" type="submit" name="deconnexion" value="Envoyez">
     </form>
 </div>
 
 <div class="dashboard">
-    <p class="animenu who animated rubberBand">Who ?</p>
-    <p class="animenu what animated rubberBand">What ?</p>
+    <p class="who animated rubberBand">Who ?</p>
+    <p class="what animated rubberBand">What ?</p>
 </div>
 
 </body>

@@ -9,21 +9,6 @@ function convertCanvasToImageWho(canvas) {
 // Put event listeners into place
 window.addEventListener("DOMContentLoaded", function() {
 
-    //testvic
-
-
-    $('#animenu').click(function(){
-        $('.animenu').addClass('.animenuu');
-        });
-
-
-
-    /*$('#animenu').click(function() {
-        $('.animenu').addClass('.animenuu');
-    });*/
-
-    //testvic
-
 
 	//Animation code
 	$( ".btn-xl" ).hover(

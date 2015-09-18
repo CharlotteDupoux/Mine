@@ -19,9 +19,7 @@
 .container {
 	height: 100%;
 }
-#video2 {
-	margin-top: -25px;
-}
+
 .what-info{
 	display: none;
 }
@@ -39,6 +37,7 @@
 	height: 250px;
 	background-color: rgba(0,0,0,0.5);
 	margin-bottom: 20px;
+
 }
 .main-buttons {
 	margin-top: 75%; 

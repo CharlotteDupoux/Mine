@@ -45,12 +45,12 @@
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#637aad', endColorstr='#5972a7',GradientType=0);
 	background-color:#637aad;
 	border:1px solid #314179;
-	border-radius: 15px;
+	border-radius: 10px;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:25px;
+	font-size:45px;
 	font-weight:bold;
 	padding:6px 12px;
 	text-decoration:none;
@@ -103,7 +103,7 @@
 .skip {
 	position: relative;
 	margin-top: 10%;
-	font-size: 17px;
+	font-size: 35px;
 }
 
 .navbar-toggle {

@@ -72,8 +72,9 @@
     </form>
 </div>
 <div class="dashboard">
+    <div class="whatt"> <p class="animenu who animated rubberBand">Who ?</p></div>
 
-    <p class="animenu who animated rubberBand">Who ?</p>
+
     <p class="animenu what animated rubberBand">What ?</p>
 </div>
 </body>

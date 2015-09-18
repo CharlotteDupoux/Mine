@@ -25,6 +25,33 @@ window.addEventListener("DOMContentLoaded", function() {
 			});
 	  	}
 	);
+	$( ".what-display" ).click(function() {
+    	$(".what-display").animate({
+		    width: 'toggle'
+		}, 1000, function() {
+		    $(".what-display").hide();
+		    $( ".what-info" ).fadeIn( "fast", function() {
+		    	// Animation complete
+		  	});
+		});
+  		$(".who-display").show();
+  		$(".who-info").hide();
+
+	});
+	$( ".who-display" ).click(function() {
+		$(".who-display").animate({
+		    width: 'toggle'
+		}, 1000, function() {
+		    $(".who-display").hide();
+		    $( ".who-info" ).fadeIn( "fast", function() {
+		    	// Animation complete
+		  	});
+		});
+  		$(".what-display").show();
+  		$(".what-info").hide();
+  		
+	});
+
 	var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 	if (navigator.appVersion.indexOf("Win")!=-1 || navigator.appVersion.indexOf("Mac")!=-1 || navigator.appVersion.indexOf("X11")!=-1 || navigator.appVersion.indexOf("Linux")!=-1){
 		$(".onlyMobile").remove();

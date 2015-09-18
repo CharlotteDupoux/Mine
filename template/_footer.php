@@ -36,7 +36,6 @@ window.addEventListener("DOMContentLoaded", function() {
 		});
   		$(".who-display").show();
   		$(".who-info").hide();
-
 	});
 	$( ".who-display" ).click(function() {
 		$(".who-display").animate({
@@ -49,7 +48,19 @@ window.addEventListener("DOMContentLoaded", function() {
 		});
   		$(".what-display").show();
   		$(".what-info").hide();
-  		
+	});
+	$("#suppresion").click(function() {
+		$( ".delete-object" ).children().fadeIn( 1000, function() {
+	    	$("#suppresion").hide();
+	    	$("#validate").show();
+	    	$("#validate").addClass("col-xs-12");
+	  	});
+	});
+	$("#validate").click(function() {
+		$( ".delete-object" ).children().fadeOut( 1000, function() {
+	    	$("#suppresion").show();
+	    	$("#validate").hide();
+	  	});
 	});
 
 	var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;

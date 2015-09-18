@@ -7,7 +7,9 @@
 #header {
 	background-color: #333333 !important;
 }
-
+#validate{
+	display: none;
+}
 #what{
 	margin-top: -35%;
 	border-radius: 50%;
@@ -19,7 +21,9 @@
 .container {
 	height: 100%;
 }
-
+.delet{
+	display: none;
+}
 .what-info{
 	display: none;
 }
